@@ -1,0 +1,29 @@
+[
+  {
+    "id": "tr1",
+    "title": "Spotlight Premiere",
+    "image": "https://images.unsplash.com/photo-1524712246134-7bce0ca674e8?w=1200&q=80",
+    "language": "English",
+    "age_rating": "UA",
+    "genre": "Premiere",
+    "description": "Exclusive opening night — limited seats."
+  },
+  {
+    "id": "tr2",
+    "title": "Festival Headliner",
+    "image": "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=1200&q=80",
+    "language": "Multi-language",
+    "age_rating": "U",
+    "genre": "Event",
+    "description": "This week's most booked experience."
+  },
+  {
+    "id": "tr3",
+    "title": "Court-side Experience",
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1200&q=80",
+    "language": "English",
+    "age_rating": "U",
+    "genre": "Sports",
+    "description": "Premium seating for the season's biggest game."
+  }
+]

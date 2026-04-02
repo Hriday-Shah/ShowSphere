@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ev1",
+    "title": "Summer Music Fest",
+    "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&q=80",
+    "language": "Multi-language",
+    "age_rating": "U",
+    "genre": "Music",
+    "description": "A two-day festival featuring indie and mainstream artists."
+  },
+  {
+    "id": "ev2",
+    "title": "Comedy Night Live",
+    "image": "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?w=400&q=80",
+    "language": "English",
+    "age_rating": "UA",
+    "genre": "Comedy",
+    "description": "Stand-up specials from touring comedians in an intimate venue."
+  },
+  {
+    "id": "ev3",
+    "title": "Tech Summit 2026",
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&q=80",
+    "language": "English",
+    "age_rating": "U",
+    "genre": "Conference",
+    "description": "Keynotes and workshops on AI, cloud, and product design."
+  },
+  {
+    "id": "ev4",
+    "title": "Food & Wine Expo",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&q=80",
+    "language": "English",
+    "age_rating": "U",
+    "genre": "Lifestyle",
+    "description": "Tastings, chef demos, and artisan stalls from across the region."
+  }
+]

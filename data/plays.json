@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pl1",
+    "title": "Hamlet — Reimagined",
+    "image": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=400&q=80",
+    "language": "English",
+    "age_rating": "UA",
+    "genre": "Tragedy",
+    "description": "A contemporary staging of Shakespeare's classic in a minimalist set."
+  },
+  {
+    "id": "pl2",
+    "title": "The Blue Room",
+    "image": "https://images.unsplash.com/photo-1507676184212-d03ab07a01e7?w=400&q=80",
+    "language": "Hindi",
+    "age_rating": "A",
+    "genre": "Drama",
+    "description": "Four strangers meet in a hotel room in this tense two-act play."
+  },
+  {
+    "id": "pl3",
+    "title": "Laugh Track",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+    "language": "English",
+    "age_rating": "U",
+    "genre": "Comedy",
+    "description": "A farce about a TV sitcom cast stuck on stage overnight."
+  },
+  {
+    "id": "pl4",
+    "title": "Monsoon Sonata",
+    "image": "https://images.unsplash.com/photo-1514306191717-452ec28c8424?w=400&q=80",
+    "language": "Bengali",
+    "age_rating": "UA",
+    "genre": "Musical",
+    "description": "Original songs weave through a story of love and loss in Kolkata."
+  }
+]

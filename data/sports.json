@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sp1",
+    "title": "City Derby — Finals",
+    "image": "https://images.unsplash.com/photo-1431324155629-1a6deb1a8a36?w=400&q=80",
+    "language": "English",
+    "age_rating": "U",
+    "genre": "Football",
+    "description": "Championship match at the national stadium with full hospitality."
+  },
+  {
+    "id": "sp2",
+    "title": "Grand Slam Tennis",
+    "image": "https://images.unsplash.com/photo-1622279457426-62cd4d431371?w=400&q=80",
+    "language": "English",
+    "age_rating": "U",
+    "genre": "Tennis",
+    "description": "Quarter-finals featuring top seeds from around the world."
+  },
+  {
+    "id": "sp3",
+    "title": "Pro Basketball League",
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&q=80",
+    "language": "English",
+    "age_rating": "U",
+    "genre": "Basketball",
+    "description": "Regular season clash between division rivals."
+  },
+  {
+    "id": "sp4",
+    "title": "Marathon City Run",
+    "image": "https://images.unsplash.com/photo-1452626038306-9aae5e071dd3?w=400&q=80",
+    "language": "English",
+    "age_rating": "U",
+    "genre": "Athletics",
+    "description": "Half and full marathon routes through the historic downtown."
+  }
+]

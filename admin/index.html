@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema — Admin</title>
+    <link rel="stylesheet" href="css/admin.css" />
+  </head>
+  <body>
+    <div class="admin-layout">
+      <header class="admin-topbar">
+        <h1 class="admin-brand">CINEMA ADMIN</h1>
+        <div class="admin-topbar__actions">
+          <button type="button" class="btn" id="btn-reload-json" title="Discard local overrides">
+            Reload from JSON files
+          </button>
+        </div>
+      </header>
+      <p class="admin-note">
+        Changes are stored in this browser (localStorage) so the static site can preview updates.
+        Authentication can be added later without changing this layout.
+      </p>
+      <nav class="admin-tabs" aria-label="Data sets">
+        <button type="button" class="admin-tab is-active" data-tab="movies">Movies</button>
+        <button type="button" class="admin-tab" data-tab="events">Events</button>
+        <button type="button" class="admin-tab" data-tab="plays">Plays</button>
+        <button type="button" class="admin-tab" data-tab="sports">Sports</button>
+        <button type="button" class="admin-tab" data-tab="trending">Trending</button>
+      </nav>
+      <div class="admin-body">
+        <div class="admin-toolbar">
+          <button type="button" class="btn btn--primary" id="btn-add">Add item</button>
+        </div>
+        <div class="admin-table-wrap">
+          <table class="admin-table" id="data-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Language</th>
+                <th>Genre</th>
+                <th>Age</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="data-table-body"></tbody>
+          </table>
+        </div>
+        <section class="admin-form hidden" id="editor-panel" aria-labelledby="editor-heading">
+          <h2 id="editor-heading">Edit item</h2>
+          <form id="editor-form" class="admin-form-grid">
+            <div class="field">
+              <label for="f-id">ID</label>
+              <input id="f-id" name="id" required autocomplete="off" />
+            </div>
+            <div class="field">
+              <label for="f-title">Title</label>
+              <input id="f-title" name="title" required />
+            </div>
+            <div class="field field--full">
+              <label for="f-image">Image URL</label>
+              <input id="f-image" name="image" type="url" required />
+            </div>
+            <div class="field">
+              <label for="f-language">Language</label>
+              <input id="f-language" name="language" required />
+            </div>
+            <div class="field">
+              <label for="f-genre">Genre</label>
+              <input id="f-genre" name="genre" required />
+            </div>
+            <div class="field">
+              <label for="f-age">Age rating</label>
+              <input id="f-age" name="age_rating" required />
+            </div>
+            <div class="field field--full">
+              <label for="f-desc">Description</label>
+              <textarea id="f-desc" name="description" required></textarea>
+            </div>
+          </form>
+          <div class="admin-form__actions">
+            <button type="button" class="btn btn--primary" id="btn-save">Save</button>
+            <button type="button" class="btn" id="btn-cancel">Cancel</button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="js/admin.js"></script>
+  </body>
+</html>

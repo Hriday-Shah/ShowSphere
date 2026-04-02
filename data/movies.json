@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mv1",
+    "title": "Midnight Echo",
+    "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&q=80",
+    "language": "English",
+    "age_rating": "UA",
+    "genre": "Thriller",
+    "description": "A detective unravels a conspiracy tied to a decades-old cold case."
+  },
+  {
+    "id": "mv2",
+    "title": "Starfall",
+    "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&q=80",
+    "language": "Hindi",
+    "age_rating": "U",
+    "genre": "Sci-Fi",
+    "description": "Interstellar explorers discover a signal that changes humanity forever."
+  },
+  {
+    "id": "mv3",
+    "title": "The Last Monsoon",
+    "image": "https://images.unsplash.com/photo-1598899134739-24c46f461b2c?w=400&q=80",
+    "language": "Tamil",
+    "age_rating": "UA",
+    "genre": "Drama",
+    "description": "A family confronts secrets as the monsoon returns to their village."
+  },
+  {
+    "id": "mv4",
+    "title": "Velocity",
+    "image": "https://images.unsplash.com/photo-1440404653325-ab12749d2891?w=400&q=80",
+    "language": "English",
+    "age_rating": "A",
+    "genre": "Action",
+    "description": "Street racers risk everything in a city-wide underground championship."
+  },
+  {
+    "id": "mv5",
+    "title": "Paper Hearts",
+    "image": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400&q=80",
+    "language": "English",
+    "age_rating": "U",
+    "genre": "Romance",
+    "description": "Two writers fall in love while adapting a bestselling novel for the screen."
+  },
+  {
+    "id": "mv6",
+    "title": "Neon Alley",
+    "image": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&q=80",
+    "language": "Hindi",
+    "age_rating": "UA",
+    "genre": "Crime",
+    "description": "An undercover cop infiltrates a syndicate in the heart of the city."
+  }
+]
