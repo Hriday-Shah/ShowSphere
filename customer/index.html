@@ -3,50 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cinema — Sign in</title>
+    <title>Create account</title>
     <link rel="stylesheet" href="css/tokens.css" />
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/login.css?v=6" />
   </head>
   <body>
     <div class="login-page">
       <div class="login-page__bg" aria-hidden="true"></div>
       <main class="login-card">
         <header class="login-card__brand">
-          <h1 class="login-card__logo">CINEMA</h1>
-          <p class="login-card__tagline">Book shows. Any screen.</p>
+          <h1 class="login-card__logo">Create account</h1>
+          <p class="login-card__tagline">Start booking shows in your city.</p>
         </header>
-        <form id="login-form" novalidate>
+        <form id="signup-form" novalidate>
           <div class="login-field">
-            <label for="login-email">Email</label>
+            <label for="signup-email">Email</label>
             <input
-              id="login-email"
+              id="signup-email"
               name="email"
               type="email"
-              autocomplete="username"
+              autocomplete="email"
               placeholder="you@example.com"
               required
             />
           </div>
           <div class="login-field">
-            <label for="login-password">Password</label>
+            <label for="signup-password">Password</label>
             <input
-              id="login-password"
+              id="signup-password"
               name="password"
               type="password"
-              autocomplete="current-password"
+              autocomplete="new-password"
               placeholder="••••••••"
+              minlength="6"
               required
             />
           </div>
-          <button type="submit" class="login-card__submit">Sign in</button>
+          <div class="login-field">
+            <label for="signup-password-confirm">Confirm password</label>
+            <input
+              id="signup-password-confirm"
+              name="password-confirm"
+              type="password"
+              autocomplete="new-password"
+              placeholder="••••••••"
+              minlength="6"
+              required
+            />
+          </div>
+          <button type="submit" class="login-card__submit">Create account</button>
         </form>
         <footer class="login-card__footer">
-          <span>New here?</span>
-          <button type="button" class="link" id="signup-link">Create an account</button>
+          <span>Already registered?</span>
+          <a class="link" href="login.html">Sign in</a>
         </footer>
       </main>
     </div>
-    <script type="module" src="js/login.js"></script>
+    <script type="module" src="js/signup.js"></script>
   </body>
 </html>

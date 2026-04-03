@@ -227,7 +227,7 @@ async function initTrendingCarousel() {
 
 export async function initHome() {
   if (sessionStorage.getItem("cinema_customer_session") !== "1") {
-    window.location.replace("index.html");
+    window.location.replace("login.html");
     return;
   }
 

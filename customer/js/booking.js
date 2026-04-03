@@ -1,5 +1,5 @@
 if (sessionStorage.getItem("cinema_customer_session") !== "1") {
-  window.location.replace("index.html");
+  window.location.replace("login.html");
 } else {
   const params = new URLSearchParams(window.location.search);
   const type = params.get("type") || "—";

@@ -35,11 +35,6 @@ function initLoginPage() {
     setLoggedIn();
     window.location.href = "home.html";
   });
-
-  document.getElementById("signup-link")?.addEventListener("click", (e) => {
-    e.preventDefault();
-    alert("Sign up will be available in a future release.");
-  });
 }
 
 initLoginPage();
