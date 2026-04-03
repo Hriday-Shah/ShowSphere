@@ -3,36 +3,44 @@
     "id": "ev1",
     "title": "Summer Music Fest",
     "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=1600&q=80",
     "language": "Multi-language",
     "age_rating": "U",
     "genre": "Music",
-    "description": "A two-day festival featuring indie and mainstream artists."
+    "description": "A two-day festival featuring indie and mainstream artists.",
+    "reviews": [{"name":"Rhea","rating":5,"text":"Lineup was fantastic and well organized."}]
   },
   {
     "id": "ev2",
     "title": "Comedy Night Live",
     "image": "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?w=400&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1527224538127-2104bb71c51b?w=1600&q=80",
     "language": "English",
     "age_rating": "UA",
     "genre": "Comedy",
-    "description": "Stand-up specials from touring comedians in an intimate venue."
+    "description": "Stand-up specials from touring comedians in an intimate venue.",
+    "reviews": [{"name":"Nikhil","rating":4,"text":"Great crowd energy and timing."}]
   },
   {
     "id": "ev3",
     "title": "Tech Summit 2026",
     "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1600&q=80",
     "language": "English",
     "age_rating": "U",
     "genre": "Conference",
-    "description": "Keynotes and workshops on AI, cloud, and product design."
+    "description": "Keynotes and workshops on AI, cloud, and product design.",
+    "reviews": [{"name":"Pooja","rating":4,"text":"Insightful talks and networking."}]
   },
   {
     "id": "ev4",
     "title": "Food & Wine Expo",
     "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=80",
     "language": "English",
     "age_rating": "U",
     "genre": "Lifestyle",
-    "description": "Tastings, chef demos, and artisan stalls from across the region."
+    "description": "Tastings, chef demos, and artisan stalls from across the region.",
+    "reviews": [{"name":"Aditi","rating":5,"text":"Excellent variety and atmosphere."}]
   }
 ]

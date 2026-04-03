@@ -3,21 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Booking</title>
+    <title>Booking Homepage</title>
     <link rel="stylesheet" href="css/tokens.css" />
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/booking.css" />
+    <link rel="stylesheet" href="css/home.css?v=4" />
+    <link rel="stylesheet" href="css/booking-home.css?v=1" />
   </head>
-  <body class="booking-page">
-    <main class="booking-placeholder">
-      <p class="booking-placeholder__eyebrow">Coming soon</p>
-      <h1 class="booking-placeholder__title">Seat selection &amp; checkout</h1>
-      <p class="booking-placeholder__text">
-        This route is reserved for the full booking flow. You arrived from a listing card.
-      </p>
-      <p id="booking-query" class="booking-placeholder__query" aria-live="polite"></p>
-      <a class="booking-placeholder__back" href="home.html">← Back to home</a>
-    </main>
-    <script type="module" src="js/booking.js"></script>
+  <body class="home-page booking-home-page">
+    <div id="booking-app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script src="js/bookingData.js"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking/Header.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking/EntertainmentBanner.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking/DescriptionSection.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking/CastSection.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking/CrewSection.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking/ReviewsSection.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking/BookingHomepage.jsx"></script>
   </body>
 </html>

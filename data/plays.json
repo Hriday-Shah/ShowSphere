@@ -1,38 +1,50 @@
 [
   {
     "id": "pl1",
-    "title": "Hamlet â€” Reimagined",
+    "title": "Hamlet — Reimagined",
     "image": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=400&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?w=1600&q=80",
     "language": "English",
     "age_rating": "UA",
     "genre": "Tragedy",
-    "description": "A contemporary staging of Shakespeare's classic in a minimalist set."
+    "description": "A contemporary staging of Shakespeare's classic in a minimalist set.",
+    "cast": [{"name":"Rohan Kapur","photo":"https://i.pravatar.cc/240?img=51"},{"name":"Meera Shah","photo":"https://i.pravatar.cc/240?img=52"},{"name":"Ishita Rao","photo":"https://i.pravatar.cc/240?img=53"}],
+    "crew": [{"name":"Arjun Malik","photo":"https://i.pravatar.cc/240?img=61"},{"name":"Nina Patel","photo":"https://i.pravatar.cc/240?img=62"}],
+    "reviews": [{"name":"Harsh","rating":5,"text":"Outstanding stage adaptation."}]
   },
   {
     "id": "pl2",
     "title": "The Blue Room",
     "image": "https://images.unsplash.com/photo-1507676184212-d03ab07a01e7?w=400&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1514306191717-452ec28c8424?w=1600&q=80",
     "language": "Hindi",
     "age_rating": "A",
     "genre": "Drama",
-    "description": "Four strangers meet in a hotel room in this tense two-act play."
+    "description": "Four strangers meet in a hotel room in this tense two-act play.",
+    "cast": [{"name":"Tanvi Sharma","photo":"https://i.pravatar.cc/240?img=54"}],
+    "crew": [{"name":"Prateek Jain","photo":"https://i.pravatar.cc/240?img=63"}],
+    "reviews": [{"name":"Ira","rating":4,"text":"Strong dialogues and direction."}]
   },
   {
     "id": "pl3",
     "title": "Laugh Track",
     "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1600&q=80",
     "language": "English",
     "age_rating": "U",
     "genre": "Comedy",
-    "description": "A farce about a TV sitcom cast stuck on stage overnight."
+    "description": "A farce about a TV sitcom cast stuck on stage overnight.",
+    "reviews": [{"name":"Kavya","rating":4,"text":"Fun and energetic performance."}]
   },
   {
     "id": "pl4",
     "title": "Monsoon Sonata",
     "image": "https://images.unsplash.com/photo-1514306191717-452ec28c8424?w=400&q=80",
+    "bannerImage": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1600&q=80",
     "language": "Bengali",
     "age_rating": "UA",
     "genre": "Musical",
-    "description": "Original songs weave through a story of love and loss in Kolkata."
+    "description": "Original songs weave through a story of love and loss in Kolkata.",
+    "reviews": [{"name":"Ritwik","rating":5,"text":"Music direction was top notch."}]
   }
 ]
