@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Screen</title>
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/home.css?v=4" />
+    <link rel="stylesheet" href="css/booking-screen.css?v=1" />
+  </head>
+  <body class="home-page booking-screen-page">
+    <div id="booking-screen-app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script src="js/bookingData.js"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking/Header.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking-screen/DateSelector.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking-screen/VenueSelector.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking-screen/Seat.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking-screen/SeatGrid.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking-screen/SeatSummary.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking-screen/PriceSummary.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="components/booking-screen/BookingScreen.jsx"></script>
+  </body>
+</html>

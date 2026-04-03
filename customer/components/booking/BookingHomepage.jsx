@@ -70,7 +70,7 @@ const BookingHomepage = () => {
 
   return (
     <>
-      <Header city={city} searchValue={search} onSearchChange={setSearch} onBookTickets={() => (window.location.href = "/booking-screen")} />
+      <Header city={city} searchValue={search} onSearchChange={setSearch} onBookTickets={() => (window.location.href = "booking-screen.html")} />
 
       <nav className="ribbon" aria-label="Entertainment categories">
         {[

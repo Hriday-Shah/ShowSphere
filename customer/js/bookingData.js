@@ -1,6 +1,6 @@
 window.bookingDataService = (function () {
   const STORAGE_KEY = "cinema_booking_data_v1";
-  const FILES = ["movies", "events", "plays", "sports", "trending"];
+  const FILES = ["movies", "events", "plays", "sports", "trending", "booking-config"];
 
   async function fetchWithFallback(path) {
     const tryPaths = [path, `..${path}`];
@@ -20,7 +20,10 @@ window.bookingDataService = (function () {
     const local = localStorage.getItem(STORAGE_KEY);
     if (local) {
       try {
-        return JSON.parse(local);
+        const parsed = JSON.parse(local);
+        const cfg = await fetchWithFallback("/data/booking-config.json");
+        parsed["booking-config"] = cfg;
+        return parsed;
       } catch {}
     }
 

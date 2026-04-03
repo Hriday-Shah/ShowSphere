@@ -1,0 +1,256 @@
+.booking-screen-page {
+  overflow-x: hidden;
+}
+
+.booking-screen-main {
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem 1rem 2rem;
+}
+
+.booking-screen-section {
+  background: rgba(18, 18, 26, 0.62);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.date-strip {
+  display: flex;
+  gap: 0.6rem;
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+}
+
+.date-card {
+  min-width: 82px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--color-text-muted);
+  padding: 0.45rem 0.55rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.date-card strong {
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.date-card.is-active {
+  border-color: rgba(232, 197, 71, 0.45);
+  background: rgba(232, 197, 71, 0.12);
+  color: var(--color-gold);
+}
+
+.venue-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.venue-card h3 {
+  margin: 0 0 0.55rem;
+  font-size: 0.95rem;
+}
+
+.showtime-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.showtime-btn {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--color-text-muted);
+  padding: 0.38rem 0.62rem;
+}
+
+.showtime-btn.is-active {
+  border-color: rgba(232, 197, 71, 0.5);
+  background: rgba(232, 197, 71, 0.12);
+  color: var(--color-gold);
+}
+
+.showtime-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.screen-indicator-wrap {
+  margin-bottom: 0.9rem;
+  text-align: center;
+}
+
+.screen-label {
+  margin: 0 0 0.3rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--color-text-muted);
+}
+
+.screen-bar {
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(232, 197, 71, 0.18), rgba(232, 197, 71, 0.45), rgba(232, 197, 71, 0.18));
+}
+
+.seat-layout-scroll {
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.seat-layout {
+  min-width: 540px;
+}
+
+.seat-row {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.seat-row-label {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.seat-row-grid {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 0.36rem;
+}
+
+.seat {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  background: #1f2530;
+  color: #d6deef;
+  font-size: 0.67rem;
+  padding: 0.35rem 0.12rem;
+}
+
+.seat:disabled {
+  cursor: not-allowed;
+}
+
+.seat--booked {
+  background: #454855;
+  color: #9497a8;
+  border-color: #454855;
+}
+
+.seat--selected {
+  background: #f0c24f;
+  color: #1a1a1a;
+  border-color: #f0c24f;
+  font-weight: 700;
+}
+
+.seat--premium {
+  background: #243a58;
+  border-color: #3b5f8f;
+}
+
+.seat--vip {
+  background: #4b2b57;
+  border-color: #774488;
+}
+
+.seat--premium.seat--selected,
+.seat--vip.seat--selected {
+  background: #f0c24f;
+  border-color: #f0c24f;
+  color: #1a1a1a;
+}
+
+.seat-legend {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.seat-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.legend {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.legend--available { background: #1f2530; }
+.legend--booked { background: #454855; }
+.legend--selected { background: #f0c24f; }
+.legend--premium { background: #243a58; }
+.legend--vip { background: #4b2b57; }
+
+.muted-text {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.price-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.45rem 0.7rem;
+}
+
+.price-grid p,
+.price-grid strong {
+  margin: 0;
+}
+
+.booking-cta-wrap {
+  position: sticky;
+  bottom: 0.6rem;
+  background: rgba(18, 18, 26, 0.88);
+  backdrop-filter: blur(8px);
+}
+
+.booking-cta {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+  color: #fff;
+  background: linear-gradient(135deg, #d42a4a 0%, #8b1538 100%);
+  font-weight: 700;
+}
+
+.booking-cta:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+@media (min-width: 900px) {
+  .booking-screen-main {
+    padding: 1.25rem 1.5rem 2.5rem;
+  }
+
+  .seat-layout {
+    min-width: 700px;
+  }
+
+  .seat {
+    font-size: 0.72rem;
+    padding: 0.38rem 0.15rem;
+  }
+}
